@@ -9,9 +9,9 @@ function Header() {
             <h1 className='font-bold sm:flex sm:justify-center text-fourth text-2xl gap-3'><i class="ri-shield-user-fill text-2xl"></i>Auth App</h1>
             </Link>
             <ul className='flex flex-row gap-16 mr-10 sm:gap-0 sm:mr-2 sm:justify-between'>
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/sign-in'>SignIn</Link></li>
+                <li className='hover:text-gray-800'><Link to='/'>Home</Link></li>
+                <li className='hover:text-gray-800'><Link to='/about'>About</Link></li>
+                <li className='hover:text-gray-800'><Link to='/sign-in'>SignIn</Link></li>
             </ul>
         </div>
     </div>
